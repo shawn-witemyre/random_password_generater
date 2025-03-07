@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background-color: #1f2937;
+  font-family: "Karla", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 150px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+
+  &.title-1 {
+    color: white;
+  }
+
+  &.title-2 {
+    color: #10b981;
+  }
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 10px;
+}
+
+.generate-password-btn {
+  padding: 5px 10px;
+  background-color: #10b981;
+  border: none;
+  border-radius: 5px;
+  margin-top: 51px;
+  margin-bottom: 35px;
+  height: 42px;
+  width: 191px;
+  color: white;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+
+  &:hover {
+    filter: brightness(120%);
+  }
+}
+
+hr {
+  margin-bottom: 35px;
+}
+
+.random-password {
+  color: #55f991;
+  width: 211px;
+  height: 39px;
+  background-color: #273549;
+  border: none;
+  border-radius: 5px;
+  &.first {
+    margin-right: 24px;
+  }
+
+  &:hover {
+    filter: brightness(120%);
+  }
+}

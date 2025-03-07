@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1 class="title-1">Generate a</h1>
+        <h1 class="title-2">random password</h1>
+        <h2>Never use an insecure password again.</h2>
+        <button class="generate-password-btn" onclick="createPassword()">
+          Generate password
+        </button>
+
+        <hr />
+        <div>
+          <button
+            id="random-password-1-el"
+            class="first random-password"
+            onclick="copyPassword('random-password-1-el')"
+          ></button>
+          <button
+            id="random-password-2-el"
+            class="random-password"
+            onclick="copyPassword('random-password-2-el')"
+          ></button>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
